@@ -1,5 +1,5 @@
 #!/bin/bash
-#說明：這個script會依照所列出的路徑做差異備份，
+#說明：這個script會依照所列出的路徑做差異備份，建議設定成美日排程
 BUCKET=gs://your-backup-bucket
 SOURCE_DIR[0]="/your/path1|$BUCKET/path1"
 SOURCE_DIR[1]="/your/path2|$BUCKET/path2"
